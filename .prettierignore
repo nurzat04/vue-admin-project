@@ -1,0 +1,21 @@
+# 忽略 node_modules
+node_modules/
+
+# 忽略打包输出目录
+dist/
+build/
+
+# 忽略环境变量文件
+.env
+.env.local
+
+# 忽略所有 JSON 文件
+*.json
+
+# 忽略 Vue 组件中的 HTML 和 CSS（仅示例，不建议）
+*.vue.html
+*.vue.css
+
+# 忽略特定文件
+src/legacy-code.js
+docs/

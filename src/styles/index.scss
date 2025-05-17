@@ -1,0 +1,24 @@
+
+//样式入口文件（统一 use）
+@use './reset' as *;
+@use './variables' as *;
+@use './mixins' as *;
+@use './base' as *;
+@use './utils' as *;
+
+//滚动条样式
+//滚动条的宽度和高度
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+//滚动条的轨道
+::-webkit-scrollbar-track {
+  background: $base-menu-bg-color;
+  border-radius: 10px;
+}
+//滚动条的滑块
+::-webkit-scrollbar-thumb {
+  background: $base-tabbar-bg-color;
+  border-radius: 10px;
+}

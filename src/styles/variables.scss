@@ -1,0 +1,37 @@
+//全局变量（颜色、字体等）
+$primary-color: #409EFF;
+$danger-color: #f56c6c;
+$font-size-base: 14px;
+$padding-base: 16px;
+
+//左侧菜单的宽度
+$base-menu-width:260px;
+//左侧菜单的背景色
+$base-menu-bg-color:#fdfdfd;
+
+//顶部导航的高度
+$base-tabbar-height: 50px;
+$base-tabbar-bg-color: #dde9f4;
+
+$base-main-bg-color: #f5f7fa;
+
+//左侧菜单logo的高度
+$base-menu-logo-height: 30px;
+
+$base-menu-min-wdith:55px;
+
+/* 自定义 NProgress 样式 */
+#nprogress .bar {
+    background: #276391 !important; /* 修改进度条颜色，例如 Vue 绿色 */
+    height: 2.5px !important; /* 修改进度条高度 */
+  }
+  
+  #nprogress .peg {
+    box-shadow: 0 0 10px #428db9, 0 0 5px #6a96b9 !important; /* 修改闪光效果 */
+  }
+  
+  #nprogress .spinner {
+    display: none !important; /* 隐藏右上角的小旋转图标（可选） */
+  }
+  
+
